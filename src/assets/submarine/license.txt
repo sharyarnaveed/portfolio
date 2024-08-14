@@ -1,0 +1,11 @@
+Model Information:
+* title:	Atlantic Explorer Submarine(glb)
+* source:	https://sketchfab.com/3d-models/atlantic-explorer-submarineglb-f1645a6ec3b54e81aed7b2c105cdd6e2
+* author:	JosephWPugsley (https://sketchfab.com/JosephWPugsley)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Atlantic Explorer Submarine(glb)" (https://sketchfab.com/3d-models/atlantic-explorer-submarineglb-f1645a6ec3b54e81aed7b2c105cdd6e2) by JosephWPugsley (https://sketchfab.com/JosephWPugsley) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
