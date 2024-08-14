@@ -3,7 +3,12 @@ import { defineAsyncComponent } from "vue";
 import navbar from "../components/navbar.vue";
 // import Dmodel from './components/3dmodel.vue';
 import projects from '../components/projectdisplay.vue';
+import aboutme from '../components/aboutme.vue';
+import technical from "@/components/technical.vue";
 const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
+
+
+
 
 </script>
 
@@ -127,10 +132,37 @@ const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
   </main>
 
 
+<!-- displays project -->
+<main id="work" class="projectconnn">
 
-<main class="projectconnn">
 <projects/>
+
 </main>
+
+
+<!-- display about its a component -->
+<main id="about" class="aboutconn">
+<aboutme/>
+</main>
+
+
+<main class="technicalconn">
+  <div class="techdiv">
+<h5>Technical Experties</h5>
+
+
+    <!-- <technical />technical -->
+  
+
+
+<technical theexpert="Front-End" logoimg="src/components/icons/vue.svg"  />
+<technical theexpert="Backend-End" logoimg="src/components/icons/php.svg" theotherlogo="src/components/icons/express.svg" />
+
+  </div>
+</main>
+
+
+
 </template>
 
 <style scoped>
@@ -268,8 +300,8 @@ const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
 
 .icons a {
   /* border: 2px solid purple; */
-  width: 12%;
-  height: 55%;
+  width: 11%;
+  height: 50%;
 }
 .icons a svg {
   height: 100%;
@@ -283,4 +315,36 @@ const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
     display: flex;
     height: 100vh;
 }
+.aboutconn
+{
+  /* border: 2px solid red; */
+  height: 100vh; 
+  display: flex;                                                                      
+}
+
+
+.technicalconn{
+  /* border: 2px solid red; */
+  height: 50vh;
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.techdiv{
+  /* border: 2px solid green; */
+  height: 90%;
+  width: 28%;
+}
+
+.techdiv h5
+{
+  font-size: 1.2rem;
+  font-family: var(--writingfont);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.479);
+  padding: 5px 5px;
+}
+
+
 </style>

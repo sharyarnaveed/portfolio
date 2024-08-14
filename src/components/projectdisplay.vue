@@ -1,7 +1,10 @@
+
+
+
 <template>
 
 <div class="headingpro">
-    <h1>Projects</h1>
+   <h1>Projects</h1>
 </div>
 
   <div class="wrapper">
@@ -11,9 +14,8 @@
                 <div class="row">
                     <div class="icon">1</div>
                     <div class="description">
-                        <h4><a href="/#project1">Winter</a></h4>
-                        <p>Winter has so much to offer -
-                         creative activities</p>
+                        <h4><a href="https://github.com/sharyarnaveed/Food-Website">Food Website</a></h4>
+                        <p>A visually appealing and responsive food website showcasing culinary delights.</p>
                     </div>
                 </div>
             </label>
@@ -24,9 +26,8 @@
                 <div class="row">
                     <div class="icon">2</div>
                     <div class="description" >
-                        <h4 ><a style="color: white;" href="/#project1">Winter</a></h4>
-                        <p style="color: white;">Gets better every day -
-                         stay tuned</p>
+                        <h4 ><a style="color: white;" href="https://github.com/sharyarnaveed/Car-Vista">Car Vista</a></h4>
+                        <p style="color: white;">A sleek and modern car showroom website featuring an elegant display of the latest vehicles.</p>
                     </div>
                 </div>
             </label>
@@ -38,8 +39,8 @@
                 <div class="row">
                     <div class="icon">3</div>
                     <div class="description">
-                        <h4><a href="/#project1">Winter</a></h4>
-                        <p>Help people all over the world</p>
+                        <h4><a style="color: white;" href="https://github.com/sharyarnaveed/clinic">Clinic Management</a></h4>
+                        <p style="color: white;">A robust clinic management system streamlining patient records, administrative tasks.</p>
                     </div>
                 </div>
             </label>
@@ -51,9 +52,8 @@
                 <div class="row">
                     <div class="icon">4</div>
                     <div class="description">
-                        <h4><a href="/#project1">Winter</a></h4>
-                        <p>Space engineering becomes
-                         more and more advanced</p>
+                        <h4><a style="color: white;" href="https://prosensia.pk/">ProSensia</a></h4>
+                        <p style="color: white;">Prosensia is a startup focused on predictive maintenance for air conditioning systems. </p>
                     </div>
                 </div>
             </label>
@@ -63,9 +63,8 @@
                 <div class="row">
                     <div class="icon">5</div>
                     <div class="description">
-                        <h4 style="color: white;"><a style="color: white;" href="/#project1">Winter</a></h4>
-                        <p style="color: white;">Space engineering becomes
-                         more and more advanced</p>
+                        <h4 style="color: white;"><a style="color: white;" href="https://github.com/sharyarnaveed/Quiz-Master">Quiz Master</a></h4>
+                        <p style="color: white;">A dynamic quiz website offering interactive and engaging quizzes score tracking.</p>
                     </div>
                 </div>
             </label>
@@ -77,6 +76,8 @@
 
 
 <style scoped>
+
+
 .headingpro{
     /* border: 2px solid yellow; */
 height: 18%;
@@ -113,7 +114,7 @@ padding: 5px 20px;
     width: 80px;
     border-radius: .75rem;
     background-size: cover;
-    cursor: pointer;
+    cursor: none;
     overflow: hidden;
     border-radius: 2rem;
     margin: 0 10px;
@@ -168,7 +169,10 @@ padding: 5px 20px;
     font-size: 1.6rem;
     font-family: var(--writingfont);
 }
-
+.description h4 a
+{
+    color: black;
+}
 input {
     display: none;
 }
@@ -190,13 +194,17 @@ input:checked + label .description {
     background-image: url('https://images.unsplash.com/photo-1676136449197-babffb1125f0?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .card[for="c3"] {
-    background-image: url('https://images.unsplash.com/photo-1722407767379-9e8a15e098a0?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1701014159251-f86a81a6fe13?q=80&w=1563&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .card[for="c4"] {
-    background-image: url('https://images.unsplash.com/photo-1679118213913-3f94639b0cca?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1721041011353-298585b7c8f6?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 
 .card[for="c5"] {
     background-image: url('https://images.unsplash.com/photo-1722269160081-5bce2d5fdde2?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
+
+
 </style>

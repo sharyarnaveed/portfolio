@@ -1,3 +1,10 @@
+<script setup>
+import { onMounted } from 'vue';
+
+
+</script>
+
+
 <template>
     <header>
 <nav>
@@ -6,8 +13,8 @@
 </div>
 <ul class="listitems">
 <li class="navoptions"><a href="#">Home</a></li>
-<li class="navoptions"><a href="#/about">About</a></li>
-<li class="navoptions"><a href="#">Work</a></li>
+<li class="navoptions"><a href="#about">About</a></li>
+<li class="navoptions"><a href="#work">Work</a></li>
 <li class="navoptions"><a href="https://github.com/sharyarnaveed">Github</a></li>
 </ul>
 </nav>
@@ -22,6 +29,8 @@ header
 {
     /* border: 2px solid red; */
     height: 12vh;
+    position: static;
+    width: 100%;
 }
 nav
 {
@@ -70,4 +79,7 @@ nav
     font-family: var(--writingfont);
     font-weight: 400;
 }
+
+
+
 </style>
