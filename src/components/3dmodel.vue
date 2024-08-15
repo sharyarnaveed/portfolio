@@ -1,16 +1,16 @@
 <template>
 	<card>
-	  <div ref="canvasContainer" class="model-container">hello</div>
+	  <div ref="canvasContainer" class="model-container"></div>
 	   <!-- <h1>helo</h1> -->
 	</card>
   </template>
 
-<script setup>
+<!-- <script setup>
 import card from "../components/3dcard.vue";
 
-</script>
+</script> -->
 
-<!-- <script setup>
+ <script setup>
 import { onMounted, ref } from "vue";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -112,4 +112,4 @@ onMounted(() => {
 canvas {
   z-index: 1;
 }
-</style> -->
+</style>

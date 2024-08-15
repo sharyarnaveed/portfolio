@@ -78,6 +78,8 @@ nav
     color: black;
     font-family: var(--writingfont);
     font-weight: 400;
+    width: 100%;
+    height: 80%;
 }
 
 

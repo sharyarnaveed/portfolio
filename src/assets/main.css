@@ -7,18 +7,21 @@
 
 body {
   background-color: rgb(252, 251, 251);
+  background-color: white;
+  cursor: none;
 }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  background-color: white;
-  cursor: none;
-scroll-behavior:smooth;
+  
 }
 
+
+html
+{
+  scroll-behavior:smooth;
+}
 /* a:hover .cursor
 {
   width: 40px;
