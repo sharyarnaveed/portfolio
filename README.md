@@ -1,6 +1,7 @@
 # portfolio ( Working on Responsiveness )
 
-## Note : model of submarine is present in a zip file extract it and then you will be able to see the model on you home page.
+## Note: Download Model from Link ( https://drive.google.com/drive/folders/1cn8U-NkFUMR-XtIn22dtB8dLrNzA7vXC?usp=sharing )
+extract it in assets folder 
  
 
 ## Project Setup
