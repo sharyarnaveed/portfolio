@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Questrial&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 :root {
   --logofont: "Caveat", cursive;
+  --headingfont:"Sedan", serif;
   --writingfont: "Questrial", cursive;
 }
 
 body {
-  background-color: rgb(252, 251, 251);
+ 
   background-color: white;
-  cursor: none;
+  /* cursor: none; */
+  animation: fadeInAnimation ease 2s;
+  /* animation-iteration-count: 1; */
+  /* animation-fill-mode: forwards; */
 }
 *{
   margin: 0;
@@ -17,11 +21,23 @@ body {
   
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
 html
 {
   scroll-behavior:smooth;
 }
+
+
+
+
 /* a:hover .cursor
 {
   width: 40px;

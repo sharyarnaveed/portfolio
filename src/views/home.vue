@@ -1,7 +1,7 @@
 <script setup>
 import { defineAsyncComponent } from "vue";
 import navbar from "../components/navbar.vue";
-// import Dmodel from './components/3dmodel.vue';
+
 import projects from '../components/projectdisplay.vue';
 import aboutme from '../components/aboutme.vue';
 import technical from "@/components/technical.vue";
@@ -145,7 +145,7 @@ const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
 <aboutme/>
 </main>
 
-
+<!-- technical experties -->
 <main class="technicalconn">
   <div class="techdiv">
 <h5>Technical Experties</h5>
@@ -204,7 +204,7 @@ const Dmodel = defineAsyncComponent(() => import("../components/3dmodel.vue"));
   font-size: 6rem;
 
   line-height: 90%;
-  font-family: var(--logofont);
+  font-family: var(--headingfont);
   font-weight: 400;
   word-break: break-all;
 }

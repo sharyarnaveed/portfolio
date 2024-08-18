@@ -68,7 +68,7 @@ I work with organizations and individuals to create beautiful, responsive, and s
   font-size: 6rem;
 
   line-height: 90%;
-  font-family: var(--logofont);
+  font-family: var(--headingfont);
   font-weight: 400;
   word-break: break-all;
 }
