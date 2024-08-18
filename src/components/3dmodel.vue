@@ -1,6 +1,6 @@
 <template>
 	<card>
-	  <div ref="canvasContainer" class="model-container">hi</div>
+	  <div ref="canvasContainer" class="model-container"></div>
 	   <!-- <h1>helo</h1> -->
 	</card>
   </template>
@@ -8,9 +8,9 @@
 <script setup>
 import card from "../components/3dcard.vue";
 
-</script>
+</script> 
 
- <!-- <script setup>
+<script setup>
 import { onMounted, ref } from "vue";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -92,10 +92,10 @@ onMounted(() => {
     renderer.setSize(window.innerWidth, window.innerHeight);
   });
 });
-</script> -->
+</script> 
 
 
-<!-- <style>
+ <style>
 .model-container {
   /* margin-bottom: 20px; */
   position: absolute;
@@ -112,4 +112,4 @@ onMounted(() => {
 canvas {
   z-index: 1;
 }
-</style> -->
+</style> 
